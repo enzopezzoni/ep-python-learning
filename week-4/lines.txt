@@ -1,0 +1,2 @@
+3. This is the third line (or should be) 
+4. A fourth line (actually the second after we wiped the previous 
