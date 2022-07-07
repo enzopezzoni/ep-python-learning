@@ -1,0 +1,8 @@
+title,type,customer/vendor,amount,date
+Resto,Expense,Mcdo,45,07-05-2021
+Cadeaux,Expense,Hudson Bay,26,07-05-2022
+Ventes,Income,Lemonade Stand,350,06-05-2022
+Loyer,Expense,Immo.com,550,07-05-2021
+Assurance,Expense,GAF,58,06-05-2022
+Voiture,Expense,Total,31,06-05-2022
+Salaire,Income,CBC,750,07-05-2021
