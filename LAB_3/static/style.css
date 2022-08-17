@@ -1,0 +1,24 @@
+.navbar-nav{
+    flex-direction: row;
+}
+
+.navbar-nav li a{
+    width: 150px
+}
+
+.form-group label{
+    width: 150px
+}
+
+.header{
+    margin: 20px 0px 20px 10px;
+}
+
+.tbl_header{
+    background-color:rgb(155, 210, 192);
+}
+
+.btn_classic{
+    background-color:rgb(155, 210, 192);
+    margin: 20px 0px 0px 0px;
+}

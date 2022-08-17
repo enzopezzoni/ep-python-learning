@@ -1,0 +1,35 @@
+{% extends "home.html" %}
+
+{% block title %}Edit Expense{% endblock %}
+{% block header %}EDIT EXPENSE{% endblock %}
+
+{% block content %}
+
+<form method="POST" style="margin: 20px 10px 20px 10px">
+
+    <div class="form-group">
+        <label for="new_expense">Expense</label>
+        <input type="text" id="new_expense" name="new_expense" value="{{ selected_expense.expense }}"><br>
+    </div>
+    <div class="form-group">
+        <label for="new_vendor">Vendor</label>
+        <input type="text" id="new_vendor" name="new_vendor" value="{{ selected_expense.vendor }}"><br>
+    </div>
+    <div class="form-group">
+        <label for="new_category">Category</label>
+        <input type="text" id="new_category" name="new_category" value="{{ selected_expense.category }}"><br>
+    </div>
+    <div class="form-group">
+        <label for="new_amount">Amount</label>
+        <input type="text" id="new_amount" name="new_amount" value="{{ selected_expense.amount }}"><br>
+    </div>
+    <div class="form-group">
+        <label for="new_paidby">Paid By</label>
+        <input type="text" id="new_paidby" name="new_paidby" value="{{ selected_expense.paidby }}"><br>
+    </div>
+
+    <button type="submit" class="btn_classic">SAVE</button>
+
+</form>
+
+{% endblock %}

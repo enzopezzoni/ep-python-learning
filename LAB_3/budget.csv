@@ -1,0 +1,5 @@
+id,expense,vendor,category,amount,paidby
+1,Rental,AirBnb,Accomodation,1562,Enzo
+3,Loc voiture,Hertz,Transport,451,Miko
+4,Hamac,Decathlon,Confort,45,Enzo
+5,Hamac,MEC,Confort,46,Stephane

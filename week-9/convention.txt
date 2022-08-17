@@ -1,0 +1,12 @@
+When naming your routes :
+
+List all resources
+/products
+/cats
+/movies
+/cars
+etc.
+
+View details of a resource and update it
+/products/<id>
+etc.

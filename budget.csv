@@ -1,0 +1,6 @@
+id,expense,vendor,category,amount,paidby
+1,Rental,Booking.com,Accomodation,1562,Enzo
+2,Food,NoFrills,Food,256,Stephane
+3,Loc voiture,Hertz,Transport,451,Miko
+4,Hamac,Decathlon,Confort,45,Enzo
+5,Lampe frontale,MEC,Outils,16,Stephane

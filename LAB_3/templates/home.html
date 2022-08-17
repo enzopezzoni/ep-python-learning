@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title> {% block title %}Home{% endblock %} - Costa Rica 2023</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="/">Home</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/budget">Budget</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/budget/new">Add New Expense</a>
+            </li>
+        </ul>
+      </nav>
+    
+    <header>
+        <H4 class="header">{% block header %}WELCOME TO COSTA RICA MY FRIEND{% endblock %}</H4>
+    </header>
+
+    {% block content%}
+    
+    <img src="{{ url_for('static', filename='costa_rica_plage.jpg') }}" width="575" height="382">
+
+    
+    {% endblock %}
+
+</body>
+
+</html>
